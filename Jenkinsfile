@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'node -v' 
+                sh 'echo "end"' 
             }
         }
     }
